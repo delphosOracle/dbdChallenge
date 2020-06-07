@@ -1,0 +1,34 @@
+<div class="container p-4">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="/newEmploy" method="POST">
+                            <div class="form-group">
+                                <span>Número de documento:</span>
+                                <input type="text" class="form-control" name="idEmpl" placeholder="Número de documento" autofocus required>
+                            </div>
+                            <div class="form-group">
+                                <span>Nombre completo:</span>
+                                <input type="text" class="form-control" name="nameEmpl" placeholder="Nombre completo" required>
+                            </div>
+                            <div class="form-group">
+                                <span>Tipo de empleado:</span>
+                                <div class="form-group">
+                                    <select class="form-control" name="typeEmpl">
+                                        <option value="E">Empleado</option>
+                                        <option value="B">Jefe</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-success btn-block">
+                                    Crear empleado
+                                </button> 
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>

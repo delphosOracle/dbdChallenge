@@ -1,0 +1,32 @@
+{
+  "name": "dbdChallenge",
+  "version": "1.0.0",
+  "description": "Prueba del bdb",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delphosOracle/dbdChallenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delphosOracle/dbdChallenge/issues"
+  },
+  "homepage": "https://github.com/delphosOracle/dbdChallenge#readme",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "express-validator": "^6.5.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "timeago.js": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
